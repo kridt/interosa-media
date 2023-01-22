@@ -1,0 +1,121 @@
+.landingPage {
+  padding: 1em 3em;
+}
+
+.firstPitch {
+  display: flex;
+  justify-content: space-between;
+
+  .landingPageImg {
+    flex: 1;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .landingPageText {
+    flex: 1;
+    margin: 3.5em 3em;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 600;
+      color: #0679c9;
+      background-color: white;
+      padding: 0.2em 0.3em;
+      position: relative;
+      right: 6.6em;
+      width: 800px;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+    p {
+      font-size: 1.2em;
+      color: #0679c9;
+    }
+  }
+}
+
+.secPitch {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .landingPageImg {
+    flex: 1;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .landingPageText {
+    flex: 1;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 600;
+      color: #0679c9;
+      background-color: white;
+      padding: 0.2em 0.3em;
+      position: relative;
+      left: 6.6em;
+      width: 800px;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+    p {
+      font-size: 1.2em;
+      color: #0679c9;
+    }
+  }
+}
+
+.reviews {
+  display: flex;
+  .review {
+    flex: 1;
+    margin: 0 1.5em;
+    p {
+      line-height: 2;
+    }
+    h4 {
+      color: #0679c9;
+    }
+  }
+}
+
+.interrested {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10em;
+  .case {
+    flex: 2;
+    h1 {
+      color: #0679c9;
+    }
+    p {
+      font-size: 1.5em;
+      line-height: 2;
+    }
+  }
+  .calendly {
+    flex: 1;
+    color: #0679c9;
+    text-align: center;
+  }
+}
+
+.contactInfo {
+  margin-top: 2em;
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    a {
+      color: #000;
+    }
+  }
+}
